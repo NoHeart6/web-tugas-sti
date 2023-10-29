@@ -30,6 +30,19 @@ h1 {
   transition: 0.3s ease;
 }
 
+.faq-text .tombol-unduh {
+  text-decoration: none;
+  background-color: #9fa4a8;
+  padding:10px;
+  border-radius: 5px;
+  color: white;
+  margin-top: 10px;
+}
+
+.faq-text .tombol-unduh:hover {
+  background-color: #6f6f6f;
+}
+
 .faq.active {
   background-color: #fff;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
